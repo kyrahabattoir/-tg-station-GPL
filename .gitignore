@@ -8,3 +8,14 @@
 *.rsc
 *.lk
 *.int
+
+#Ignore mapmerge backups
+*.backup
+
+#Ignore git/merge related files
+*.merge*
+*.orig
+*.diff
+
+#Ignore compiled python scripts
+*.pyc
