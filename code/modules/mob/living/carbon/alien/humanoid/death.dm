@@ -7,7 +7,7 @@
 		playsound(loc, 'sound/voice/hiss6.ogg', 80, 1, 1)
 		visible_message("<span class='name'>[src]</span> lets out a waning guttural screech, green blood bubbling from its maw...")
 		update_canmove()
-		if(client)	blind.layer = 0
+		if(client)	blind.invisibility = 101
 		update_icons()
 
 	tod = worldtime2text() //weasellos time of death patch
