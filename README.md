@@ -1,10 +1,7 @@
-##/tg/station v1.0.1
-
-[![Build Status](https://travis-ci.org/tgstation/-tg-station.png)](https://travis-ci.org/tgstation/-tg-station)
-
+##/tg/station-GPL v1.0.1
 
 **Website:** http://www.tgstation13.org <BR>
-**Code:** https://github.com/tgstation/-tg-station <BR>
+**Code:** https://github.com/kyrahabattoir/-tg-station-GPL <BR>
 **Wiki** http://tgstation13.org/wiki/Main_Page<BR>
 **IRC:** irc://irc.rizon.net/coderbus <BR>
 
@@ -22,7 +19,7 @@ Then you simply search for the -tg-station repository and click the big clone
 button.
 
 Option 3: Download the source code as a zip by clicking the ZIP button in the
-code tab of https://github.com/tgstation/-tg-station
+code tab of https://github.com/kyrahabattoir/-tg-station-GPL
 (note: this will use a lot of bandwidth if you wish to update and is a lot of
 hassle if you want to make any changes at all, so it's not recommended.)
 
