@@ -1,18 +1,7 @@
-##/tg/station-GPL v1.0.1
+## /tg/station-GPL v1.0.1
 
-**Website:** http://www.tgstation13.org <BR>
-**Code:** https://github.com/kyrahabattoir/-tg-station-GPL <BR>
-**Wiki** http://tgstation13.org/wiki/Main_Page<BR>
-**IRC:** irc://irc.rizon.net/coderbus <BR>
+## DOWNLOADING
 
-##DOWNLOADING
-
-There are a number of ways to download the source code. Some are described here, an alternative all-inclusive guide is also located at http://www.tgstation13.org/wiki/Downloading_the_source_code
-
-Option 1:
-Follow this: http://www.tgstation13.org/wiki/Setting_up_git
-
-Option 2:
 Install GitHub::windows from http://windows.github.com/
 It handles most of the setup and configuraton of Git for you.
 Then you simply search for the -tg-station repository and click the big clone
@@ -23,7 +12,7 @@ code tab of https://github.com/kyrahabattoir/-tg-station-GPL
 (note: this will use a lot of bandwidth if you wish to update and is a lot of
 hassle if you want to make any changes at all, so it's not recommended.)
 
-##INSTALLATION
+## INSTALLATION
 
 First-time installation should be fairly straightforward.  First, you'll need
 BYOND installed.  You can get it from http://www.byond.com/.  Once you've done 
@@ -68,7 +57,7 @@ compiled tgstation.dmb file.  Make sure to set the port to the one you
 specified in the config.txt, and set the Security box to 'Safe'.  Then press GO
 and the server should start up and be ready to join.
 
-##UPDATING
+## UPDATING
 
 To update an existing installation, first back up your /config and /data folders
 as these store your server configuration, player preferences and banlist.
@@ -79,7 +68,7 @@ install, overwriting when prompted except if we've specified otherwise, and
 recompile the game.  Once you start the server up again, you should be running
 the new version.
 
-##MAPS
+## MAPS
 
 /tg/station currently comes equipped with three maps.
 
@@ -93,7 +82,7 @@ If you want to load a different map, just open the corresponding map's code file
 
 Anytime you want to make changes to a map it's imperative you use the [Map Merging tools](http://tgstation13.org/wiki/Map_Merger)
 
-##AWAY MISSIONS
+## AWAY MISSIONS
 
 /tg/station supports loading away missions however they are disabled by default.
 
@@ -101,24 +90,24 @@ Map files for away missions are located in the _maps/RandomZLevels directory. Ea
 
 To enable an away mission open fileList.txt in the _maps/RandomZLevels directory and uncomment one of the .dmm lines by removing the #. If more than one away mission is uncommented then the away mission loader will randomly select one the enabled ones to load.
 
-##SQL SETUP
+## SQL SETUP
 
 The SQL backend for the library and stats tracking requires a 
 MySQL server.  Your server details go in /config/dbconfig.txt, and the SQL 
 schema is in /SQL/tgstation_schema.sql and /SQL/tgstation_schema_prefix.sql depending on if you want table prefixes.  More detailed setup instructions are located here: http://www.tgstation13.org/wiki/Downloading_the_source_code#Setting_up_the_database
 
-##IRC BOT SETUP
+## IRC BOT SETUP
 
 Included in the repository is an IRC bot capable of relaying adminhelps to a specified
 IRC channel/server (thanks to Skibiliano).
 Instructions for bot setup are included in the /bot folder along with the script
 itself
 
-##CONTRIBUTING
+## CONTRIBUTING
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-##LICENSE
+## LICENSE
 
 This is a fork of the -tg-station project, the original code is under a GNU GPLv3 license.
 
