@@ -120,7 +120,8 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ##LICENSE
 
-All code is under a GNU GPL v3 license (http://www.gnu.org/licenses/gpl.html),
-including tools unless their readme specifies otherwise.
+This is a fork of the -tg-station project, the original code is under a GNU GPLv3 license.
+
+All code after commit 4e134df3fdcc028c855d81a5ac45afa43fb3a773 is under a GNU GPLv3-only license (http://www.gnu.org/licenses/gpl.html), including tools unless their readme specifies otherwise.
 All content including icons and sound is under a Creative Commons 3.0 BY-SA
 license (http://creativecommons.org/licenses/by-sa/3.0/).
